@@ -24,6 +24,7 @@ public class MainProgram {
 	        Student s2 = new Student(2, "Safwan", 3.8f);
 	        Student s3 = new Student(3, "Azan", 3.4f);
 	        Student s4 = new Student(4, "Tariq", 3.2f);
+			tudent s5 = new Student(5, "Ahmed", 3.2f);
 
 	        // Store in array
 	        Student[] list = {s1, s2, s3, s4};
@@ -46,5 +47,6 @@ public class MainProgram {
 	        System.out.println(top.id + "  " + top.name + "  CGPA: " + top.cgpa);
 	    }
 	}
+
 
 
